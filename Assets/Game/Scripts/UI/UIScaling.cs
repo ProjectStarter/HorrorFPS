@@ -57,7 +57,7 @@ public class UIScaling : MonoBehaviour {
 
 		UIWidget[] widgetChildren = this.baseUIWidget.GetComponentsInChildren<UIWidget> ();
 
-		foreach(UIPanel childWidget in widgetChildren)
+		foreach(UIWidget childWidget in widgetChildren)
 		{
 			childWidget.UpdateAnchors();
 		}
