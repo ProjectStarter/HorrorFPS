@@ -4,4 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/SoundManagerTestScene.unity
+  - enabled: 1
+    path: Assets/SoundManagerPro/Demo/SoundManagerProDemoScene.unity
+  - enabled: 1
+    path: Assets/SoundManagerPro/Demo/SoundManagerProDemoScenePart2.unity
+  - enabled: 1
+    path: Assets/SoundManagerPro/Demo/SoundManagerProDemoScenePart3.unity
+  - enabled: 1
+    path: Assets/SoundManagerPro/Demo/DummyScenes/MusicScene1.unity
+  - enabled: 1
+    path: Assets/SoundManagerPro/Demo/DummyScenes/MusicScene2.unity
+  - enabled: 1
+    path: Assets/SoundManagerPro/Demo/DummyScenes/MusicScene3.unity
+  - enabled: 1
+    path: Assets/Game/Scenes/test1.unity
