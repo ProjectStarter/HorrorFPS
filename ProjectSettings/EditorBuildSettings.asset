@@ -11,3 +11,7 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/MainMenuScene.unity
   - enabled: 1
     path: Assets/Game/Scenes/GameScene.unity
+  - enabled: 1
+    path: Assets/Game/Scenes/RESEARCH/SaveLoadScene_One.unity
+  - enabled: 1
+    path: Assets/Game/Scenes/RESEARCH/SaveLoadScene_Two.unity
