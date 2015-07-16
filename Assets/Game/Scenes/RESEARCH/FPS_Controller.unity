@@ -221,6 +221,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
       propertyPath: m_UpdateMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
+      propertyPath: m_CullingMode
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
