@@ -263,7 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 1153808737}
   headTransform: {fileID: 1191272906}
-  hipTransform: {fileID: 1230478008}
+  charTransform: {fileID: 1230478008}
   axes: 0
   sensitivityX: 15
   sensitivityY: 15
