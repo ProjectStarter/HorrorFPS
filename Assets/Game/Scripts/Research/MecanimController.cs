@@ -252,7 +252,7 @@ public class MecanimController : MonoBehaviour {
 		{
 			if (duration <= 0)
 			{
-				///duration = DURATION;
+				duration = DURATION;
 				isActivated = false;
 				
 				float rand = RandomFloatGenerator();
