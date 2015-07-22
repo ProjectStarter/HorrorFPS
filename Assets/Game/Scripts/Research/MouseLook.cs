@@ -13,6 +13,7 @@ public class MouseLook : MonoBehaviour {
 	[SerializeField] private Camera mainCamera;
 	[SerializeField] private Transform headTransform;
 	[SerializeField] private Transform charTransform;
+	[SerializeField] private Transform neckTransform;
 
 	public enum RotationAxes 
 	{ 
@@ -54,6 +55,9 @@ public class MouseLook : MonoBehaviour {
 
 			headTransform.localEulerAngles = new Vector3(-rotationY, 0, 0);
 			charTransform.localEulerAngles = new Vector3(0, rotationX, 0);
+
+			//neckTransform.localEulerAngles = Vector3.zero;
+			mainCamera.transform.localEulerAngles = new Vector3(0,0, neckTransform.localEulerAngles.z*(-1));
 		}
 
 		else if (axes == RotationAxes.MouseX)

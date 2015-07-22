@@ -124,7 +124,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
       propertyPath: m_Controller
@@ -148,6 +148,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400148, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
+      propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -238,6 +242,10 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
   m_StereoMirrorMode: 0
+--- !u!4 &1186195889 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400148, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
+  m_PrefabInternal: {fileID: 890150863}
 --- !u!4 &1191272906 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400146, guid: e194d39a231e29a489a36758f9fb175e, type: 3}
@@ -264,12 +272,13 @@ MonoBehaviour:
   mainCamera: {fileID: 1153808737}
   headTransform: {fileID: 1191272906}
   charTransform: {fileID: 1230478008}
+  neckTransform: {fileID: 1186195889}
   axes: 0
   sensitivityX: 15
   sensitivityY: 15
-  minimumX: -180
-  maximumX: 180
-  minimumY: -30
+  minimumX: -360
+  maximumX: 360
+  minimumY: -60
   maximumY: 60
 --- !u!54 &1230478010
 Rigidbody:

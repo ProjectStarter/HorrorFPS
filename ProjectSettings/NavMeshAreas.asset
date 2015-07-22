@@ -17,8 +17,8 @@ NavMeshAreas:
     cost: 1
   - name: 
     cost: 1
-  - name: 
-    cost: 1
+  - name: water
+    cost: 5
   - name: 
     cost: 1
   - name: 
